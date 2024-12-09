@@ -1405,7 +1405,7 @@ function _Chat() {
     },
     settings: (text) => {
       if (accessStore.disableFastLink) return;
-
+      debugger;
       try {
         const payload = JSON.parse(text) as {
           key?: string;
